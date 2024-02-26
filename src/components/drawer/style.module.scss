@@ -1,0 +1,7 @@
+.link_router {
+  text-decoration: none;
+  color: var(--color-text-primary-dark);
+  &:hover {
+    color: var(--color-text-primary-light);
+  }
+}
