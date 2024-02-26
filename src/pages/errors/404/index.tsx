@@ -1,6 +1,6 @@
 import PageModel from "../../../components/pageModel";
 
-const pageNotFound = () => {
+const PageNotFound = () => {
     return ( 
         <>
         <PageModel>
@@ -10,4 +10,4 @@ const pageNotFound = () => {
      );
 }
  
-export default pageNotFound;
+export default PageNotFound;

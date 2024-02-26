@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DrawerComponent from "./components/drawer";
 import { rotas_principais } from "./routes/roteamentos/routings";
-import pageNotFound from "./pages/errors/404";
+import PageNotFound from "./pages/errors/404";
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -12,7 +12,7 @@ const App: React.FC = () => (
             <Route path={item.path} element={item.element} key={index} />
           </>
         ))}
-        <Route path="*" exact={true} component={pageNotFound} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </DrawerComponent>
   </BrowserRouter>
