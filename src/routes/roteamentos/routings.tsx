@@ -1,10 +1,9 @@
 import { icone } from "../../icons/icons";
-import { routingProps } from "../../interfaces/roteamento";
 import PageContact from "../../pages/contact";
 import InicioPage from "../../pages/home";
 import MorePage from "../../pages/more";
 
-export const rotas_principais: routingProps[] = [
+export const rotas_principais = [
   {
     titulo: "Início",
     subtitulo: "Início",

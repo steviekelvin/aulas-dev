@@ -4,7 +4,7 @@ const PageNotFound = () => {
     return ( 
         <>
         <PageModel>
-            404 - Pagina não encontrada
+            <h1>404 - Pagina não encontrada </h1>
         </PageModel>
         </>
      );
