@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-let teste = Array.from(Array(6));
+// let teste = Array.from(Array(6));
 
 export default function homeGrid() {
   return (

@@ -1,9 +1,9 @@
 import PageModel from "../../components/pageModel";
 
-const PageContact = () => {
+const PageContact:React.FC = () => {
   return (
     <>
-      <PageModel title={"Contato"}>Pagina Contato</PageModel>
+      <PageModel title="Contato">Pagina Contato</PageModel>
     </>
   );
 };

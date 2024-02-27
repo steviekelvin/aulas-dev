@@ -9,9 +9,7 @@ const App: React.FC = () => (
       <Routes>
         <Route path="*" element={<PageNotFound />} />
         {rotas_principais.map((item, index) => (
-          <>
-            <Route path={item.path} element={item.element} key={index} exact />
-          </>
+          <Route path={item.path} element={item.element} key={index} />
         ))}
         {/* <Route path="*" element={<PageNotFound authed={true} />} */}
       </Routes>
