@@ -6,7 +6,6 @@ const InicioPage = () => {
     <>
       <PageModel title={'Início'}>
         <HomeGrid>
-
         </HomeGrid>
       </PageModel>
     </>
