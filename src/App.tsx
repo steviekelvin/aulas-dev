@@ -4,7 +4,7 @@ import DrawerComponent from "./components/drawer";
 import PageNotFound from "./pages/errors/404";
 import InicioPage from "./pages/home";
 import MorePage from "./pages/more";
-import { ContactPage } from "@mui/icons-material";
+import PageContact from "./pages/contact";
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -14,7 +14,7 @@ const App: React.FC = () => (
         {/* {rotas_principais.map((item, index) => ( */}
         <Route path="/" element={<InicioPage />} />
         <Route path="/sobre" element={<MorePage />} />
-        <Route path="/contato" element={<ContactPage />} />
+        <Route path="/contato" element={<PageContact />} />
         {/* ))} */}
         {/* <Route path="*" element={<PageNotFound authed={true} />} */}
       </Routes>
