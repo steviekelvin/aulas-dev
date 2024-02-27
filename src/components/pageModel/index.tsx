@@ -1,6 +1,6 @@
 import styles from "./style.module.scss";
 
-const PageModel = (props) => {
+const PageModel = (props:any) => {
   return (
     <>
       <div className={styles.container}>

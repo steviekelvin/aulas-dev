@@ -1,10 +1,8 @@
 import PageModel from "../../../components/pageModel";
 
-type INotFoundProps = {
-  setInputText?: (value: string) => void;
-};
 
-const PageNotFound: React.FC<INotFoundProps> = ({ setInputText }) => {
+
+const PageNotFound: React.FC = () => {
   return (
     <>
       <PageModel>
