@@ -1,13 +1,17 @@
 import PageModel from "../../../components/pageModel";
 
-const PageNotFound = () => {
-    return ( 
-        <>
-        <PageModel>
-            <h1>404 - Pagina não encontrada </h1>
-        </PageModel>
-        </>
-     );
-}
- 
+type INotFoundProps = {
+  setInputText?: (value: string) => void;
+};
+
+const PageNotFound: React.FC<INotFoundProps> = ({ setInputText }) => {
+  return (
+    <>
+      <PageModel>
+        <h1>404 - Pagina não encontrada </h1>
+      </PageModel>
+    </>
+  );
+};
+
 export default PageNotFound;

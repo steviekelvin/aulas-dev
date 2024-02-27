@@ -14,9 +14,9 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-// let teste = Array.from(Array(6));
+const teste = Array.from(Array(6));
 
-export default function homeGrid() {
+ const HomeGrid = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid
@@ -38,3 +38,4 @@ export default function homeGrid() {
     </Box>
   );
 }
+export default HomeGrid

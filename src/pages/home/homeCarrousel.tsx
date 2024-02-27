@@ -4,7 +4,7 @@ import imagem2 from '../../assets/images/vue.jpg'
 import imagem3 from "../../assets/images/angular.jpg";
 import styles from './style.module.scss';
 
-function HomeCarrousel() {
+const HomeCarrousel = () => {
   return (
     <Carousel data-bs-theme="light" className={styles.home_carrousel}>
       <Carousel.Item className={styles.home_carrousel_item} >
